@@ -4,20 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+     </style>
+
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="assets/logo.png" alt="" srcset="">
+     <header class="border-b-2 border-gray-300 bg-[#C6BDBD50] py-5">
+        <nav class="flex justify-between mx-10/12">
+            <div class="flex ">
+                <h3 class="text-2xl font-bold">English</h3>
+                <img class="" src="assets/logo.png" alt="" srcset="">
+                <h3  class="text-2xl">জানালা</h3>
             </div>
-             <div>
-                <div></div>
-                <div></div>
-                <div></div>
+             <div class="gap-10">
+                <button class="btn btn-outline btn-primary">
+                    <img src="assets/fa-circle-question.png" alt="" srcset="">FAQ</button>
+                   <button class="btn btn-outline btn-primary">
+                    <img src="assets/fa-book-open.png" alt="" srcset="">Learn</button>
+                       <button class="btn btn-outline btn-primary">
+                        <img src="assets/fa-arrow-right-from-bracket.png" alt="" srcset="">Logout</button>
              </div>
         </nav>
     </header>
+    <section class="mx-11/12 py-20 px-20 flex justify-between ">
+        <div class="py-24">
+        <h1 class="text-4xl font-bold text-black"><span class="text-4xl font-bold text-blue-400">English</span>
+        is Easy!!</h1>
+        <p class="text-md  text-gray-500 py-5">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা<br> আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে<br>যাবে অন্য একটি Level এ</p>
+        <div class="">
+   <input type="text" placeholder="Enter your name" class="px-4 py-2 border-gray-300">
+        </div>
+     <div class="py-5">
+       <input type="password" name="password" id=""  class="px-4 py-2 border-gray-300">
+     </div>
+     <button class="btn btn-soft bg-blue-700 text-white">Get Start</button>
+       
+        </div>
+        <div>
+            <img class="w-[500px]" src="assets/hero-student.png" alt="" srcset="">
+        </div>
+    </section>
+    <main class="text-center">
+        
+        <h1 class="text-3xl font-bold text-black">
+            <span class="text-3xl font-bold text-blue-400">
+                Let's
+            </span>
+            Learn Vocabularies
+        </h1>
+      <div class="py-5">
+          <button class="btn btn-outline btn-primary">
+                   <img src="assets/fa-book-open.png" alt="" srcset="" class="hover:text-white">Lesson-1</button>
+                   <button class="btn btn-outline btn-primary">
+                         <img src="assets/fa-book-open.png" alt="" srcset="">Lesson-2</button>
+                       <button class="btn btn-outline btn-primary">
+                          <img src="assets/fa-book-open.png" alt="" srcset="">Lesson-3</button>
+                     
+                          <button class="btn btn-outline btn-primary">
+                         <img src="assets/fa-book-open.png" alt="" srcset="">Lesson-4</button>
+                   <button class="btn btn-outline btn-primary">
+                         <img src="assets/fa-book-open.png" alt="" srcset="">Lesson-5</button>
+                       <button class="btn btn-outline btn-primary">
+                           <img src="assets/fa-book-open.png" alt="" srcset="">Lesson-6</button>
+                          <button class="btn btn-outline btn-primary">
+                         <img src="assets/fa-book-open.png" alt="" srcset="">Lesson-7</button>
+
+      </div>
+    </main>
     
 </body>
 </html>
