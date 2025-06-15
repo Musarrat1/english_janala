@@ -3,7 +3,7 @@ function loadLevel() {
         .then(res => res.json())
         .then((data) => displayLevel(data.data));
 }
-
+// display part
 function displayLevel(level) {
     const levelContainer = document.getElementById("level-container");
     levelContainer.innerHTML='';
